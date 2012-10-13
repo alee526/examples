@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <property name="gd.cs.module.dir" location="../../module/noarch/java"/>
+  <!-- additional modules -->
+  <target name="pre-build" depends="init">
+    <!--exec executable="${other.module.dir}/build.sh"><arg line="-t -v ${global_ver}"/></exec-->
+  </target>
+</project>

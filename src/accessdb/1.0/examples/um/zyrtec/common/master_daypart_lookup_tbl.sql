@@ -1,0 +1,1 @@
+SELECT [Master Daypart_Lookup_tbl].[Kantar Day Part],[Master Daypart_Lookup_tbl].[Mbox Spot TV Daypart],[Master Daypart_Lookup_tbl].[SPOT Daypart],[Master Daypart_Lookup_tbl].[Mbox Daypart],[Master Daypart_Lookup_tbl].[Day Part] FROM [Master Daypart_Lookup_tbl];

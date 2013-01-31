@@ -1,0 +1,1 @@
+SELECT [Week Ending Sat Translation].[Week Ending Sunday], [Google Insights tbl].zyrtec, [Google Insights tbl].allegra, [Google Insights tbl].claritin, [Google Insights tbl].benadryl FROM [Week Ending Sat Translation] LEFT JOIN [Google Insights tbl] ON [Week Ending Sat Translation].[Week Ending Saturday] = [Google Insights tbl].[Week Ending Saturday];

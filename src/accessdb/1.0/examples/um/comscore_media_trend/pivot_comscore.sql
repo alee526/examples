@@ -1,0 +1,1 @@
+SELECT [Time Dimension tbl].[Week Ending Sunday], [Comscore tbl].Product, Sum([Comscore tbl].[Visitors (000)]) AS [SumOfVisitors (000)] FROM [Time Dimension tbl] LEFT JOIN [Comscore tbl] ON [Time Dimension tbl].Date = [Comscore tbl].[Time Period] GROUP BY [Time Dimension tbl].[Week Ending Sunday], [Comscore tbl].Product;

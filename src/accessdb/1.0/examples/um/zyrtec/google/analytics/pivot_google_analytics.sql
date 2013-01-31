@@ -1,0 +1,1 @@
+SELECT [Time Dimension tbl].[Week Ending Sunday], Sum([Google Analytics tbl].[Unique Visitors]) AS SumOfUniqueVisitors FROM [Google Analytics tbl] RIGHT JOIN [Time Dimension tbl] ON [Google Analytics tbl].Date = [Time Dimension tbl].Date GROUP BY [Time Dimension tbl].[Week Ending Sunday];
